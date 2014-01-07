@@ -1,0 +1,24 @@
+/*
+Errno::ENOENT: No such file or directory - scss
+
+Backtrace:
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.13/bin/../lib/sass/../sass/plugin/compiler.rb:360:in `read'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.13/bin/../lib/sass/../sass/plugin/compiler.rb:360:in `update_stylesheet'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.13/bin/../lib/sass/../sass/plugin/compiler.rb:203:in `update_stylesheets'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.13/bin/../lib/sass/../sass/plugin/compiler.rb:201:in `each'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.13/bin/../lib/sass/../sass/plugin/compiler.rb:201:in `update_stylesheets'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.13/bin/../lib/sass/../sass/plugin/compiler.rb:235:in `watch'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.13/bin/../lib/sass/../sass/plugin.rb:107:in `send'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.13/bin/../lib/sass/../sass/plugin.rb:107:in `method_missing'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.13/bin/../lib/sass/../sass/exec.rb:463:in `watch_or_update'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.13/bin/../lib/sass/../sass/exec.rb:326:in `process_result'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.13/bin/../lib/sass/../sass/exec.rb:41:in `parse'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.13/bin/../lib/sass/../sass/exec.rb:21:in `parse!'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.13/bin/sass:13
+/opt/vagrant_ruby/bin/sass:19:in `load'
+/opt/vagrant_ruby/bin/sass:19
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Errno::ENOENT: No such file or directory - scss"; }
