@@ -14,11 +14,13 @@ body {
   position: relative;
   width: 250px;
   height: 250px;
+  
 
     img {
         width: 200px;
         height: 200px;
         -webkit-transition: opacity 1s;
+        -moz-transition: opacity 1s;
         top: 0px;
         left: 0px;
         position: absolute;

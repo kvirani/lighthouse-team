@@ -16,6 +16,7 @@ body {
     width: 200px;
     height: 200px;
     -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
     top: 0px;
     left: 0px;
     position: absolute; }
