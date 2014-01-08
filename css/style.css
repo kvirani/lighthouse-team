@@ -15,7 +15,7 @@ body {
   #team-members .member img {
     width: 200px;
     height: 200px;
-    -webkit-transition: opacity 1s;
+    -webkit-transition: opacity 1s, -webkit-transform 1s;
     -moz-transition: opacity 1s;
     top: 0px;
     left: 0px;
@@ -28,9 +28,11 @@ body {
   #team-members .member img.alternate {
     opacity: 1; }
   #team-members .member:hover img.original {
-    opacity: 1; }
+    opacity: 1;
+    -webkit-transform: rotate(45deg); }
   #team-members .member:hover img.alternate {
-    opacity: 0; }
+    opacity: 0;
+    -webkit-transform: rotate(45deg); }
   #team-members .member div.name {
     text-align: center;
     line-height: 50px;

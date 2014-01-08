@@ -19,7 +19,7 @@ body {
     img {
         width: 200px;
         height: 200px;
-        -webkit-transition: opacity 1s;
+        -webkit-transition: opacity 1s, -webkit-transform 1s;
         -moz-transition: opacity 1s;
         top: 0px;
         left: 0px;
@@ -41,9 +41,11 @@ body {
   &:hover {
     img.original {
       opacity: 1;
+      -webkit-transform: rotate(45deg);
     }
     img.alternate {
       opacity: 0;
+      -webkit-transform: rotate(45deg);
     }
   }
   div.name {
