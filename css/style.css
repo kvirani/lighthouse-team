@@ -7,13 +7,28 @@ body {
 
 #team-members .member {
   float: left;
-  /*border: 1px solid gray;*/
   margin: 10px;
-  padding: 6px; }
-
-#team-members .member img {
-  width: 200px;
-  height: 200px; }
-
-#team-members .member div.name {
-  text-align: center; }
+  padding: 6px;
+  position: relative;
+  width: 250px;
+  height: 250px; }
+  #team-members .member img {
+    width: 200px;
+    height: 200px;
+    -webkit-transition: opacity 1s;
+    top: 0px;
+    left: 0px;
+    position: absolute; }
+  #team-members .member img.original {
+    opacity: 0; }
+  #team-members .member img.alternate {
+    opacity: 1; }
+  #team-members .member:hover img.original {
+    opacity: 1; }
+  #team-members .member:hover img.alternate {
+    opacity: 0; }
+  #team-members .member div.name {
+    text-align: center;
+    line-height: 50px;
+    bottom: 5px;
+    position: absolute; }
