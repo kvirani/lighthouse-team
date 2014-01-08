@@ -19,7 +19,10 @@ body {
     -moz-transition: opacity 1s;
     top: 0px;
     left: 0px;
-    position: absolute; }
+    position: absolute;
+    border: 1px solid;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #888888; }
   #team-members .member img.original {
     opacity: 0; }
   #team-members .member img.alternate {
